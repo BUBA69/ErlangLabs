@@ -1,0 +1,16 @@
+-record(ipv4,{
+    version,
+    ihl,
+    tos,
+    total_length,
+    identification,
+    flags,
+    frag_offset,
+    ttl,
+    protocol,
+    checksum,
+    source_addr,
+    dest_addr,
+    options,
+    data
+}).
